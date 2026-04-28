@@ -9,10 +9,10 @@ import Contact from './components/Contact';
 import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// window scroll to top on route change
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+// window scroll to top on route change
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   
